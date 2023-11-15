@@ -1,28 +1,21 @@
 import { useState, useContext, useEffect } from 'react'
 import './App.css'
-import { UsuarioContext } from './context/usuario'
+import { ThemeContext } from './context/ThemeContext'
 import { Button } from 'react-bootstrap'
+import GoalInput from './components/GoalInput'
 
 function App() {
-    // Traer los valores del contexto:
-    const { usuario, setUsuario } = useContext(UsuarioContext)
 
-    const handleCount = () => {
-        console.log('handleCount', usuario)
-        // Si tocamos el boton y no existe count, lo creamos con valor 1
-        if (usuario?.count === undefined) setUsuario({ ...usuario, count: 1 })
-        // Si existe count, le sumamos 1
-        else setUsuario({ ...usuario, count: usuario.count + 1 })
-    }
+    const { theme, setTheme } = useContext(ThemeContext)
 
-    const handleDelete = () => setUsuario(null)
+    const handleTheme = () => setTheme(theme => theme === 'white' ? 'blue' : 'white')
 
     return (
-        <main>
-            <h1>La insanidad está en su prime</h1>
+        <main style={{padding: '2rem'}}>
+            <h1>Trabajo de efsi 15/11/23 🙊</h1>
             <div className="buttons-container">
-                <Button onClick={handleCount}>usuario.count: <strong>{usuario?.count || 0}</strong></Button>
-                <Button onClick={handleDelete}>Borrar usuario</Button>
+                <Button onClick={handleTheme}>Cambiar fondo 👾</Button>
+                <GoalInput />
             </div>
         </main>
     )
