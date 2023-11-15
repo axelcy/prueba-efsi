@@ -1,6 +1,7 @@
 import { useState, useContext, useEffect } from 'react'
 import './App.css'
 import { UsuarioContext } from './context/usuario'
+import { Button } from 'react-bootstrap'
 
 function App() {
     // Traer los valores del contexto:
@@ -17,15 +18,13 @@ function App() {
     const handleDelete = () => setUsuario(null)
 
     return (
-        <>
-            <h1>Vite + React</h1>
-            <div className="card">
-                <button onClick={handleCount}>usuario.count: {usuario?.count || 0}</button>
-                <br />
-                <br />
-                <button onClick={handleDelete}>Borrar usuario</button>
+        <main>
+            <h1>La insanidad está en su prime</h1>
+            <div className="buttons-container">
+                <Button onClick={handleCount}>usuario.count: <strong>{usuario?.count || 0}</strong></Button>
+                <Button onClick={handleDelete}>Borrar usuario</Button>
             </div>
-        </>
+        </main>
     )
 }
 
