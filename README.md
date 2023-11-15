@@ -1,30 +1,26 @@
 # Prueba EFSI 15/11/23
 
+## **IMPORTANTE**: *No modificar el repositorio, pueden usarlo sin hacer push requests*
+
 Para correr el proyecto: ```npm i``` + ```npm run dev```
 
-El repositorio está lleno de comentarios, la idea es ayudarlos para que todos puedan aprobar y entender
-
-## Links útiles para la prueba
-
-- [React Context](https://www.w3schools.com/react/react_usecontext.asp)
-
-- [LocalStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+El repositorio está lleno de comentarios, la idea es ayudarlos para que todos puedan aprobar y entender.
 
 ## Herramientas para FrontEnd que pueden ayudar
 
-- [React-Bootstrap](https://react-bootstrap.github.io/) Elementos de Bootstrap como componentes para react.
+- [React-Bootstrap](https://react-bootstrap.github.io/): Elementos de Bootstrap como componentes para react.
 
 Acuerdense de poner esta línea de código en su app para que funcione:
 
 ```import 'bootstrap/dist/css/bootstrap.min.css'```
 
-- [Vite](https://vitejs.dev/) Herramienta para crear proyectos.
+- [Vite](https://vitejs.dev/): Herramienta para crear proyectos.
 
 Los proyectos se crean con ```npm create vite```
 
-- [Tabler Icons](https://tabler-icons.io/) (literalmente los mejores íconos son god y fáciles de usar)
+- [Tabler Icons](https://tabler-icons.io/): (literalmente los mejores íconos son god y fáciles de usar)
 
-- [SVG Backgrounds](https://www.svgbackgrounds.com/) NPC el que no usa esto xd
+- [SVG Backgrounds](https://www.svgbackgrounds.com/): NPC el que no usa esto xd
 
 El que no usa SVG Backgrounds: 🗣🗣🗣
 
@@ -39,3 +35,9 @@ El que no usa SVG Backgrounds: 🗣🗣🗣
 Se vé algo así:
 
 <img width="750" src="https://learn.microsoft.com/es-es/microsoft-edge/devtools-guide-chromium/storage/localstorage-images/storage-application-local-storage-view-key-value.png" />
+
+### Links útiles para la prueba
+
+- [React Context](https://www.w3schools.com/react/react_usecontext.asp): *w3schools*
+
+- [LocalStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp): *w3schools*
