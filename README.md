@@ -4,7 +4,7 @@
   <h1>Prueba EFSI 15/11/23</h1>
   <h2>Oculten esto para q jeremy no los vea xd</h2>
 
-## **IMPORTANTE**: *No modificar el repositorio, pueden usarlo sin hacer push requests*
+## **IMPORTANTE**: *No modificar el repositorio, pueden usarlo sin hacer push requests o hagan un fork*
 
 Para correr el proyecto: ```npm i``` + ```npm run dev```
 
