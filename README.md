@@ -1,5 +1,7 @@
 # Prueba EFSI 15/11/23
 
+Para correr el proyecto: ```npm i``` + ```npm run dev```
+
 El repositorio está lleno de comentarios, la idea es ayudarlos para que todos puedan aprobar y entender
 
 ## Links útiles para la prueba
