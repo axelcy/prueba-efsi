@@ -1,11 +1,8 @@
-
-
 <details>
   <summary>React Context basic example</summary>
 
   <h1>Prueba EFSI 15/11/23</h1>
   <h2>Oculten esto para q jeremy no los vea xd</h2>
-
 
 ## **IMPORTANTE**: *No modificar el repositorio, pueden usarlo sin hacer push requests*
 
@@ -48,4 +45,5 @@ Se vé algo así:
 - [React Context](https://www.w3schools.com/react/react_usecontext.asp): *w3schools*
 
 - [LocalStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp): *w3schools*
+
 </details>
