@@ -28,4 +28,14 @@ Los proyectos se crean con ```npm create vite```
 
 El que no usa SVG Backgrounds: 🗣🗣🗣
 
-<img width="100" src="https://c0.klipartz.com/pngpicture/545/94/gratis-png-desarrollador-de-software-de-internet-meme-software-de-computadora-alt-derecha-pulgar.png">
+<img width="100" src="https://c0.klipartz.com/pngpicture/545/94/gratis-png-desarrollador-de-software-de-internet-meme-software-de-computadora-alt-derecha-pulgar.png" />
+
+## Cómo acceder al LocalStorage desde el navegador
+
+1. Ir a la pestaña "Application" o "Aplicación"
+2. buscar "Local Storage" o "Almacenamiento local"
+3. Ahí va a aparecer una url ([http://localhost:3000](http://localhost:3000)), la tocan y les va a aparecer.
+
+Se vé algo así:
+
+<img width="750" src="https://learn.microsoft.com/es-es/microsoft-edge/devtools-guide-chromium/storage/localstorage-images/storage-application-local-storage-view-key-value.png" />
