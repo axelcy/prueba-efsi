@@ -3,11 +3,16 @@ import { createContext, useState } from "react"
 export const UsuarioContext = createContext(null)
 
 export const UsuarioProvider = ({ children }) => {
-    // Si usuario es un objeto usar:     JSON.parse y JSON.stringify
-    // Si usuario es un string NO usar:  JSON.parse y JSON.stringify
+    // Si usuario es un OBJETO usar:     JSON.parse y JSON.stringify
+    // Si usuario es un STRING no usar:  JSON.parse y JSON.stringify
 
     const [usuario, setUsuario] = useState(JSON.parse(localStorage.getItem('usuario')) || {})
+
+    // Guardar en localStorage
     localStorage.setItem('usuario', JSON.stringify(usuario))
+
+    // Borrar localStorage si el usuario es null (no es estrictamente necesario)
+    if(usuario === null) localStorage.clear()
 
     return (
         // Esto es el provider:
